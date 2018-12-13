@@ -2,27 +2,27 @@
 A library that provide event response for Arduino.
 
 ### JMATypes.h
-Data type definition. Define NULL, null Two basic types. Their values are 0x00.
+	Data type definition. Define NULL, null Two basic types. Their values are 0x00.
 
 ### JMAEvent.h
-Event callback function type definition
+	Event callback function type definition
 
-* _JMA_EVENT_NONE_
-Empty event
+	* _JMA_EVENT_NONE_
+	Empty event
 
 
 ## Event callback function type:
 
-* _JMAEvent_
-Pass the callback function of the event generation object, for example: anEnvFunc(*sender);
+	* _JMAEvent_
+		Pass the callback function of the event generation object, For example: anEnvFunc(*sender);
 
 
-* _JMAEventWithoutSender_
-A function that does not pass an event generation object. For example: anEnvFunc();
+	* _JMAEventWithoutSender_
+		A function that does not pass an event generation object. For example: anEnvFunc();
 
 
-* _hasRespondEvent(event)_
-Determine if the event response callback function is set.
+	* _hasRespondEvent(event)_
+		Determine if the event response callback function is set.
 
 
 -----------------------------------------------------------------------
@@ -46,11 +46,11 @@ Determine if the event response callback function is set.
 ## 事件回调函数类型：
 
 	* _JMAEvent_
-		传递事件产生对象的回调函数，例如：envFun(*sender);
+		传递事件产生对象的回调函数，例如：anEnvFunc(*sender);
 	
 
 	* _JMAEventWithoutSender_
-		不传递事件产生对象的函数。例如：envFun();
+		传递事件产生对象的回调函数，例如：anEnvFunc();
 
 
 	* _hasRespondEvent(event)_
