@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map For ExampleLibrary
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+NULL	KEYWORD1
+null	KEYWORD1
+
+JMA_EVENT_NONE	KEYWORD1
+JMAEvent	KEYWORD1
+JMAEventWithoutSender	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+hasRespondEvent	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
