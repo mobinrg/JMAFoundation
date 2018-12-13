@@ -7,21 +7,21 @@ A library that provide event response for Arduino.
 ### JMAEvent.h
 	Event callback function type definition
 
-	* *JMA_EVENT_NONE*
+	* JMA_EVENT_NONE
 	Empty event
 
 
 ## Event callback function type:
 
-	* *JMAEvent*
+	* JMAEvent
 		Pass the callback function of the event generation object, For example: anEnvFunc(*sender);
 
 
-	* *JMAEventWithoutSender*
+	* JMAEventWithoutSender
 		A function that does not pass an event generation object. For example: anEnvFunc();
 
 
-	* *hasRespondEvent(event)*
+	* hasRespondEvent(event)
 		Determine if the event response callback function is set.
 
 
@@ -39,20 +39,20 @@ A library that provide event response for Arduino.
 ### JMAEvent.h
 	事件回调函数类型定义
 
-	* *JMA_EVENT_NONE*
+	* JMA_EVENT_NONE
 		空事件
 
 
 ## 事件回调函数类型：
 
-	* *JMAEvent*
+	* JMAEvent
 		传递事件产生对象的回调函数，例如：anEnvFunc(*sender);
 	
 
-	* *JMAEventWithoutSender*
+	* JMAEventWithoutSender
 		传递事件产生对象的回调函数，例如：anEnvFunc();
 
 
-	* *hasRespondEvent(event)*
+	* hasRespondEvent(event)
 		判断是否设置了事件响应回调函数。
 	
