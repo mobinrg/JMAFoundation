@@ -14,11 +14,11 @@ A library that provide event response for Arduino.
 ## Event callback function type:
 
 	* JMAEvent
-		Pass the callback function of the event generation object, For example: anEnvFunc(*sender);
+		A callback function. At same time send the callback function of the event generation object, For example: anEnvFunc(*sender);
 
 
 	* JMAEventWithoutSender
-		A function that does not pass an event generation object. For example: anEnvFunc();
+		A callback function that does not send an event generation object. For example: anEnvFunc();
 
 
 	* hasRespondEvent(event)
@@ -50,7 +50,7 @@ A library that provide event response for Arduino.
 	
 
 	* JMAEventWithoutSender
-		传递事件产生对象的回调函数，例如：anEnvFunc();
+		不传递事件产生对象的回调函数，例如：anEnvFunc();
 
 
 	* hasRespondEvent(event)
